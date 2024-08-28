@@ -1,0 +1,122 @@
+body {
+  background: #F3F5FC;
+  font-family: Inter, sans-serif;
+  color: #495057;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.header img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 48px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #0A3871;
+  margin: 80px 0 24px 240px;
+}
+
+.input-text {
+  width: 680px;
+  height: 48px;
+  margin-left: 240px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin: 40px 0 0 240px;
+}
+
+.button {
+  width: 328px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-encrypt {
+  background-color: #0A3871;
+  color: #FFFFFF;
+}
+
+.button-decrypt {
+  background-color: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+}
+
+.output-container {
+  position: relative;
+  top: -480px;
+  left: 1000px;
+  width: 400px;
+  height: 480px;
+  border-radius: 32px 0px 0px 0px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  padding: 24px;
+}
+
+.output-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #343A40;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.output-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #495057;
+  text-align: center;
+}
+
+.copy-button {
+  width: 336px;
+  height: 67px;
+  background-color: #D8DFE8;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.error-message {
+  margin-left: 240px;
+  margin-top: 240px;
+  color: #495057;
+  font-size: 12px;
+}

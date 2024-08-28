@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Decodificador de Texto</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>  
-  <h1>Hello Word!!</h1>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="img.avif" alt="Logo">
+    </div>
+    <h1 class="title">Encriptador Simples</h1>
+    <input type="text" class="input-text" placeholder="Digite seu texto">
+    <div class="error-message">Apenas letras minúsculas e sem acento.</div>
+    <div class="buttons">
+      <div class="button button-encrypt">Criptografar</div>
+      <div class="button button-decrypt">Descriptografar</div>
+    </div>
+    <div class="output-container">
+      <p class="output-placeholder">Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <p class="output-text">Nenhuma mensagem encontrada</p>
+      <div class="copy-button">Copiar</div>
+    </div>
+    <div class="footer">
+      Desenvolvido por Rafael Soeiro
+    </div>
+
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
